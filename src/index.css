@@ -1,1 +1,11 @@
 @import "tailwindcss";
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bs-dark);
+    padding-top: 3rem;
+}
+main {
+    min-height: 100vh;
+}

@@ -1,0 +1,28 @@
+// Font family dasar
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+$font-family-serif: 'Frank Ruhl Libre', serif;
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+$font-family-serif: 'Hanuman', serif;
+// Pewarnaan inti
+$primary: #547AA5;
+$secondary: #50342F;
+$info: #EB9486;
+// Pewarnaan respon
+$success: #6B9F20;
+$warning: #FEDF2E;
+$danger: #CE2029;
+// Pewarnaan iluminasi
+$light: #E5EAFA;
+$dark: #272838;
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark
+) !default;
+
+@import "bootstrap/scss/bootstrap";

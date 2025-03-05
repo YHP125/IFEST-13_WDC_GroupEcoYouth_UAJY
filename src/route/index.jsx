@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 
 // Import ProtectedRoutes
 import ProtectedRoutes from "./ProtectedRoutes";
+import App from "../App";
 import { Sandbox } from "../pages/Sandbox";
 
 // All Effect CSS
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
     {
         path: "*",
         element: <div>Routes Not Found!</div>
+    },
+    {
+        path: "/",
+        element: <App />
     },
     {
         path: "/sandbox",
